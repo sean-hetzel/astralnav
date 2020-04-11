@@ -1,5 +1,12 @@
 {
   "name": "astralnav",
+  "homepage": "https://sean-hetzel.github.io/astralnav/",
+  "author": {
+    "name": "Sean Hetzel", 
+    "email": "seanhetzel1@gmail.com", 
+    "url": "https://seanhetzel.com"
+  },
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
