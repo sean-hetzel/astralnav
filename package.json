@@ -2,8 +2,8 @@
   "name": "astralnav",
   "homepage": "https://sean-hetzel.github.io/astralnav/",
   "author": {
-    "name": "Sean Hetzel", 
-    "email": "seanhetzel1@gmail.com", 
+    "name": "Sean Hetzel",
+    "email": "seanhetzel1@gmail.com",
     "url": "https://seanhetzel.com"
   },
   "license": "MIT",
@@ -17,9 +17,11 @@
     "@types/node": "^12.12.34",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
+    "@types/react-router-dom": "^5.1.4",
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "typescript": "^3.7.5"
   },

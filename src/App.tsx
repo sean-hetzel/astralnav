@@ -1,25 +1,26 @@
-import React from "react";
+import React, { Component } from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 
-function App() {
-  return (
-    <>
-      <div className="btn-normal "><i className="tim-icons tim-icons-lg icon-sound-wave teal"/></div>
-      <div className="btn-normal"><i className="tim-icons tim-icons-lg icon-world teal"/></div>
-      <div className="btn-normal"><i className="tim-icons tim-icons-lg icon-spaceship teal"/></div>
+interface Props {}
+interface State {}
 
-      <div className="btn-special"></div>
-      {/* <div className="glow">
-        <h1 className="teal">hi</h1>
-      </div>
-      <h1>hi</h1>
-      <h1 className="yellow">Yellow</h1>
-      <h1 className="teal">Teal</h1>
-      <div className="grad">
-        <h1 className="darker">hi</h1>
-      </div> */}
-    </>
-  );
+export default class App extends Component<Props, State> {
+  constructor(props: any) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route path="/" exact render={(props) => <Home {...props} />} />
+        </Switch>
+      </Router>
+    );
+  }
 }
-
-export default App;

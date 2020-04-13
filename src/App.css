@@ -8,8 +8,6 @@
   --pink: #ff00bf;
 }
 
-/* text-shadow: 0px 0px 5px var(--teal); */
-
 body {
   background-color: var(--dark);
   color: var(--main);
@@ -24,67 +22,27 @@ body {
 }
 
 .teal {
-  margin-top: 18px;
   color: var(--teal);
-  font-weight: lighter;
-  letter-spacing: 2px;
-  text-shadow: 0px 0px 3px var(--teal);
 }
 
 .darker {
   color: var(--darker);
 }
 
-.glow {
-  width: 100%;
-  height: 100px;
-  background-color: var(--darker);
-
-  box-shadow: 0px 0px 40px 10px var(--teal);
-  /* in order: x offset, y offset, blur size, spread size, color */
-  /* blur size and spread size are optional (they default to 0) */
+.glow{
+  text-shadow: 0px 0px 3px var(--teal);
 }
 
-.grad {
-  width: 100%;
-  height: 100px;
-  background-image: linear-gradient(to right, var(--yellow), var(--teal));
+.btn{
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 40px;
+  box-sizing: border-box;
 }
 
-.btn-normal {
-  margin: 100px;
-  align-items: center;
-  background-color: var(--dark);
-  box-shadow: 12px 12px 20px 10px #101213, -10px -10px 20px 10px #2f3436;
-  border-radius: 100px;
-  display: inline-block;
-  justify-content: center;
-  margin-right: 4rem;
-  height: 50px;
-  width: 100px;
-  background-image: radial-gradient(
-    farthest-corner at 20px 10px,
-    var(--dark) 0%,
-    var(--darker) 100%
-  );
-}
+.nav-btn{
+  border-color: linear-gradient(to right, var(--teal) 0%, var(--yellow) 100%);
 
-.btn-special {
-  margin: 100px;
-  align-items: center;
-  background-color: var(--dark);
-  box-shadow: 12px 12px 20px 10px #101213, -10px -10px 20px 10px #2f3436;
-  border-radius: 100px;
-  display: inline-block;
-  justify-content: center;
-  margin-right: 4rem;
-  height: 50px;
-  width: 100px;
-  background-image: radial-gradient(
-    farthest-corner at 20px 10px,
-    var(--teal) 0%,
-    var(--pink) 100%
-  );
 }
 
 /* --------------------------------
