@@ -1,9 +1,14 @@
+@font-face {
+  font-family: Ailerons;
+  src: url(./fonts/Ailerons/Ailerons-Regular.otf);
+}
+
 :root {
   --dark: #1b1e20;
   --darker: #141618;
   --main: white;
   --light: #a4b7c4;
-  --yellow: #fffb16;
+  --yellow: #e8ff16;
   --teal: #00ffdd;
   --pink: #ff00bf;
 }
@@ -12,7 +17,7 @@ body {
   background-color: var(--dark);
   color: var(--main);
   min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
 .yellow {
@@ -35,10 +40,9 @@ body {
   cursor: pointer;
   color: var(--teal);
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 2pt;
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   margin: 1em;
 }
 
@@ -51,19 +55,41 @@ nav {
 }
 
 .nav-btn {
-  margin-left: 4em;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
 }
 
 .nav-text {
-  display: inline;
   vertical-align: middle;
-  margin-left: 0.2em;
-  text-align: center;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  font-weight: bold;
 }
 
 .brand-img {
+  margin-right: 2em;
   width: 100px;
   height: auto;
+  float: left;
+  margin-left: 5em;
+}
+
+.brand-text {
+  background-clip: border-box;
+  font-family: Ailerons;
+  color: var(--teal);
+  background: linear-gradient(var(--teal) 50%, var(--yellow) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  float: left;
+  font-size: 50pt;
+  font-weight: lighter;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+  margin-right: 1em;
 }
 
 .login {
