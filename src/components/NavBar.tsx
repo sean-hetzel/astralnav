@@ -9,17 +9,25 @@ export default class NavBar extends Component<Props, State> {
 
   render() {
     return (
-      <>
+      <nav >
+        <a href="/" className="brand-img"><img src="" alt="Atral Nav"/></a>
         <Link className="btn nav-btn" to="/">
-          <i className="tim-icons tim-icons-32 icon-sound-wave teal glow" />Progress
+          <i className="tim-icons tim-icons-lg icon-world teal glow" />
+          <h2 className="nav-text">Home</h2>
         </Link>
         <Link className="btn nav-btn" to="/">
-          <i className="tim-icons tim-icons-32 icon-world teal glow" /> Home
+          <i className="tim-icons tim-icons-lg icon-vector teal glow " />
+          <h2 className="nav-text">Progress</h2>
         </Link>
-        <Link className="btn nav-btn" to="/">
-          <i className="tim-icons tim-icons-32 icon-spaceship teal glow" /> Sign Up
+        <Link className="btn nav-btn login" to="/">
+          <i className="tim-icons tim-icons-lg icon-support-17 teal glow" />
+          <h2 className="nav-text">Support</h2>
         </Link>
-      </>
+        <Link className="btn nav-btn login" to="/">
+          <i className="tim-icons tim-icons-lg icon-single-02 teal glow" />
+          <h2 className="nav-text">Login</h2>
+        </Link>
+      </nav>
     );
   }
 }
