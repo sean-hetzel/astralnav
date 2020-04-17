@@ -68,21 +68,27 @@ nav {
   font-weight: bold;
 }
 
-.brand-img {
+#brand-link {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#brand-img {
   margin-right: 2em;
   width: 100px;
   height: auto;
   float: left;
-  margin-left: 5em;
 }
 
-.brand-text {
+#brand-text {
   background-clip: border-box;
   font-family: Ailerons;
   color: var(--teal);
-  background: linear-gradient(var(--teal) 50%, var(--yellow) 100%);
+  /* background: linear-gradient(var(--teal) 50%, var(--yellow) 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   text-decoration: none;
   float: left;
   font-size: 50pt;
@@ -92,7 +98,7 @@ nav {
   margin-right: 1em;
 }
 
-.login {
+#login {
   float: right;
 }
 
