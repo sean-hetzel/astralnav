@@ -1,22 +1,17 @@
-import React, { Component } from 'react'
-import NavBar from './NavBar'
-// import backgroundImage from "../images/landing-page.svg"
+import React, { Component } from "react";
+import NavBar from "./NavBar";
 
-interface Props {
-  
-}
-interface State {
-  
-}
+interface Props {}
+interface State {}
 
 export default class Home extends Component<Props, State> {
-  state = {}
+  state = {};
 
   render() {
     return (
       <>
-      <NavBar/>
+        <NavBar />
       </>
-    )
+    );
   }
 }
