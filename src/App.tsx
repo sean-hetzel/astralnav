@@ -16,7 +16,7 @@ export default class App extends Component<Props, State> {
   render() {
     return (
       <Router>
-        <NavBar />
+        {/* <NavBar /> */}
         <Switch>
           <Route path="/" exact render={(props) => <Home {...props} />} />
         </Switch>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
+// import backgroundImage from "../images/landing-page.svg"
 
 interface Props {
   
@@ -13,7 +15,7 @@ export default class Home extends Component<Props, State> {
   render() {
     return (
       <>
-       home 
+      <NavBar/>
       </>
     )
   }

@@ -18,6 +18,13 @@ body {
   color: var(--main);
   min-height: 100vh;
   font-family: sans-serif;
+  
+  /* temp */
+  background: url('./images/astral-nav-dusk.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .yellow {
@@ -69,6 +76,7 @@ nav {
 }
 
 #brand-link {
+  margin-top: 5em;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -102,6 +110,34 @@ nav {
   float: right;
 }
 
+/* #landing-page-img { */
+  /* The image used */
+
+  /* Full height */
+  /* height: auto; */
+  /* width: auto; */
+  /* background-image: url('./images/landing-page.svg'); */
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;} */
+
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+} */
+
+/* html{
+    background: url('./images/landing-page.svg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
 /* --------------------------------
 
 Nucleo Outline Web Font - nucleoapp.com/
