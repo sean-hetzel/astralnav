@@ -18,6 +18,11 @@ body {
   color: var(--main);
   min-height: 100vh;
   font-family: sans-serif;
+  background: url('./images/nebula-1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .yellow {
@@ -86,7 +91,7 @@ nav {
 #brand-text {
   background-clip: border-box;
   font-family: Ailerons;
-  color: var(--teal);
+  color: white;
   /* background: linear-gradient(var(--teal) 50%, var(--yellow) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
