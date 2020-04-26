@@ -9,7 +9,9 @@
   --main: white;
   --light: #b7c5ce;
   --yellow: #e8ff16;
+  --kelly: #4CBB17;
   --teal: #00ffdd;
+  --blue:#00ffdd;
   --pink: #ff00bf;
 }
 
@@ -150,7 +152,6 @@ Created using IcoMoon - icomoon.io
   font: normal normal normal 1em/1 "Nucleo";
   vertical-align: middle;
   text-transform: none;
-  /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -881,4 +882,52 @@ html {
   top: 0;
   width: 15%;
   height: 15%;
+}
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.btn-main {
+  display: block;
+  height: 50px;
+  width: 186px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--dark);
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.btn-main:after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background: #0099E5;
+  background: linear-gradient(45deg, #0099E5 0%, #00BEF5  35%, #00E0F1 61%, var(--teal) 100%);
+  height: 50px;
+  width: 372px;
+  z-index: -1;
+  -webkit-transform: translateX(-280px);
+          transform: translateX(-280px);
+  -webkit-transition: -webkit-transform 400ms ease-in;
+  transition: -webkit-transform 400ms ease-in;
+  transition: transform 400ms ease-in;
+  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
+}
+.btn-main:hover:after {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+
+.btn span {
+  position: relative;
+  top: 18px;
 }

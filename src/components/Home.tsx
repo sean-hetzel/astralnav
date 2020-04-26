@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 
 interface Props {}
@@ -27,8 +28,11 @@ export default class Home extends Component<Props, State> {
           <div className="belt"></div>
         </div>
         <div id="sign-up-container">
-          <h1>Navigate your Job Search</h1>
+          <h1>Navigate Your Job Search</h1>
           <p>bla bla bla</p>
+          <Link className="btn-main btn" id="login" to="/signup">
+            <span>Sign Up</span>
+          </Link>
         </div>
       </>
     );
