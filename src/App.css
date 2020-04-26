@@ -9,9 +9,9 @@
   --main: white;
   --light: #b7c5ce;
   --yellow: #e8ff16;
-  --kelly: #4CBB17;
+  --kelly: #4cbb17;
   --teal: #00ffdd;
-  --blue:#00ffdd;
+  --blue: #00ffdd;
   --pink: #ff00bf;
 }
 
@@ -52,8 +52,7 @@ p {
   text-decoration: none;
   letter-spacing: 2pt;
   position: relative;
-  display: inline-flex;
-  margin: 1em;
+  display: inline-block;
 }
 
 nav {
@@ -106,8 +105,8 @@ nav {
 
 #sign-up-container {
   margin-top: 20em;
-  margin-right: 10em;
-  float: right;
+  /* margin-right: 10em; */
+  display: inline-block;
 }
 
 #login {
@@ -700,6 +699,7 @@ html {
   height: 40em;
   margin: 0;
   display: inline-block;
+  margin-top: 5em;
 }
 .system .planet,
 .system .belt,
@@ -888,7 +888,7 @@ html {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .btn-main {
@@ -905,18 +905,25 @@ html {
   text-align: center;
   font-weight: bold;
   border-radius: 6px;
+  margin-top: 2em;
 }
 .btn-main:after {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
-  background: #0099E5;
-  background: linear-gradient(45deg, #0099E5 0%, #00BEF5  35%, #00E0F1 61%, var(--teal) 100%);
+  background: #0099e5;
+  background: linear-gradient(
+    45deg,
+    #0099e5 0%,
+    #00bef5 35%,
+    #00e0f1 61%,
+    var(--teal) 100%
+  );
   height: 50px;
   width: 372px;
   z-index: -1;
   -webkit-transform: translateX(-280px);
-          transform: translateX(-280px);
+  transform: translateX(-280px);
   -webkit-transition: -webkit-transform 400ms ease-in;
   transition: -webkit-transform 400ms ease-in;
   transition: transform 400ms ease-in;
@@ -924,10 +931,16 @@ html {
 }
 .btn-main:hover:after {
   -webkit-transform: translateX(-200px);
-          transform: translateX(-200px);
+  transform: translateX(-200px);
 }
 
 .btn span {
   position: relative;
   top: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
 }
