@@ -26,6 +26,10 @@ h1 {
   color: var(--teal);
 }
 
+h3{
+  color: var(--light);
+}
+
 p {
   color: var(--light);
 }
@@ -943,8 +947,21 @@ html {
   top: 18px;
 }
 
-.grid {
+.grid-4 {
   display: grid;
   grid-gap: 6em;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.center{
+  text-align: center;
+}
+
+.icon-info-container{
+  margin: 10em;
 }
