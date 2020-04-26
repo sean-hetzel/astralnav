@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/astralnav/static/css/main.76c72adc.chunk.css",
-    "main.js": "/astralnav/static/js/main.3922ac1e.chunk.js",
-    "main.js.map": "/astralnav/static/js/main.3922ac1e.chunk.js.map",
+    "main.css": "/astralnav/static/css/main.1994c8e5.chunk.css",
+    "main.js": "/astralnav/static/js/main.97b6887e.chunk.js",
+    "main.js.map": "/astralnav/static/js/main.97b6887e.chunk.js.map",
     "runtime-main.js": "/astralnav/static/js/runtime-main.096a266f.js",
     "runtime-main.js.map": "/astralnav/static/js/runtime-main.096a266f.js.map",
     "static/js/2.fd35cde0.chunk.js": "/astralnav/static/js/2.fd35cde0.chunk.js",
     "static/js/2.fd35cde0.chunk.js.map": "/astralnav/static/js/2.fd35cde0.chunk.js.map",
     "index.html": "/astralnav/index.html",
-    "precache-manifest.18661a85ab57608477b57d7d74f0cd8d.js": "/astralnav/precache-manifest.18661a85ab57608477b57d7d74f0cd8d.js",
+    "precache-manifest.d12afb8147fea4fcb7b71bf9241881ca.js": "/astralnav/precache-manifest.d12afb8147fea4fcb7b71bf9241881ca.js",
     "service-worker.js": "/astralnav/service-worker.js",
-    "static/css/main.76c72adc.chunk.css.map": "/astralnav/static/css/main.76c72adc.chunk.css.map",
+    "static/css/main.1994c8e5.chunk.css.map": "/astralnav/static/css/main.1994c8e5.chunk.css.map",
     "static/js/2.fd35cde0.chunk.js.LICENSE.txt": "/astralnav/static/js/2.fd35cde0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/astralnav/static/media/nucleo.f0b489a5.woff",
     "static/media/astral-nav-logo-300x300.png": "/astralnav/static/media/astral-nav-logo-300x300.8b6bf6e0.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.096a266f.js",
     "static/js/2.fd35cde0.chunk.js",
-    "static/css/main.76c72adc.chunk.css",
-    "static/js/main.3922ac1e.chunk.js"
+    "static/css/main.1994c8e5.chunk.css",
+    "static/js/main.97b6887e.chunk.js"
   ]
 }
