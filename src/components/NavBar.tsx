@@ -10,8 +10,8 @@ export default class NavBar extends Component<Props, State> {
 
   render() {
     return (
-      <nav>
-          <a href="/" id="brand-link">
+      <nav >
+          <a href="/" id="brand-container" className="grid">
             <img src={logo} alt="Atral Nav" id="brand-img" />
             <h1 id="brand-text">ASTRAL NAV</h1>
           </a>
@@ -27,7 +27,7 @@ export default class NavBar extends Component<Props, State> {
           <i className="tim-icons tim-icons-lg icon-support-17 teal" />
           <h4 className="nav-text">Support</h4>
         </Link> */}
-        <Link className="btn nav-btn " id="login" to="/signup">
+        <Link className="btn nav-btn" id="login" to="/signup">
           <i className="tim-icons tim-icons-lg icon-single-02 teal" />
         </Link>
       </nav>

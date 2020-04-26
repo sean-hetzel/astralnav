@@ -1,13 +1,23 @@
-import React, { ReactElement } from 'react'
+import React, { Component } from 'react'
 
-interface Props {
+interface Props
+  extends React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  > {}
+
+interface State {
   
 }
 
-export default function SignUp({}: Props): ReactElement {
-  return (
+export default class SignUp extends Component<Props, State> {
+  state = {}
+
+  render() {
+    return (
       <div id="signup-page">
-        <input type="text"/>
-      </div>
-  )
+      <input />
+    </div>
+    )
+  }
 }

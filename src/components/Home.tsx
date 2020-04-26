@@ -11,6 +11,12 @@ export default class Home extends Component<Props, State> {
     return (
       <>
         <NavBar />
+        <div id="astral-img"></div>
+        <div id="sign-up-container">
+          <h1>Navigate your Job Search</h1>
+          <p>bla bla bla</p>
+          
+        </div>
       </>
     );
   }
