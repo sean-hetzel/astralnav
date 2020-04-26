@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/astralnav/precache-manifest.4f6a3837ded5efbde75e701f66a96f13.js"
+  "/astralnav/precache-manifest.18661a85ab57608477b57d7d74f0cd8d.js"
 );
 
 self.addEventListener('message', (event) => {
