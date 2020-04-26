@@ -32,7 +32,7 @@ export default class Home extends Component<Props, State> {
           <div id="sign-up-container">
             <h1>Navigate Your Job Search</h1>
             <p>
-              Track your job applications, networking evernts and interviews all
+              Track your job applications, networking events and interviews all
               in one place.
             </p>
             <Link className="btn-main btn" to="/signup">
@@ -51,7 +51,7 @@ export default class Home extends Component<Props, State> {
           <div className="center">
             <i className="tim-icons tim-icons-lg icon-single-copy-04 teal" />
             <h3>
-              Write custom cover letters, store your resume and links to speed
+              Store your resume, custom cover letters and profile links to speed
               up the application process.
             </h3>
           </div>
@@ -59,7 +59,7 @@ export default class Home extends Component<Props, State> {
             <i className="tim-icons tim-icons-lg icon-compass-05 teal" />
             <h3>
               Gain insights such as when to follow up with a company or contact,
-              and how to improve your search.
+              and how you can improve your search.
             </h3>
           </div>
           <div className="center">

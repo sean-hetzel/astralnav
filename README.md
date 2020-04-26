@@ -1,3 +1,36 @@
+# Astral Nav
+
+Job search tracker to track your job applications.
+
+Current URL: https://sean-hetzel.github.io/astralnav/#/
+
+Future URL: https://astralnav.com
+
+![Astral Nav](astral-nav-screenshot.PNG)
+
+# Usage
+
+Users can:
+
+1. Do nothing yet
+
+# Roadmap
+
+1. Everyting
+
+# Attributions
+1. Orrery<br>
+phviettu<br>
+https://codepen.io/Viettu/pen/YwGedL
+
+2. Gradient Button<br>
+Erica Grucza<br>
+https://codepen.io/egrucza/pen/yyWGbN
+
+# Support
+
+seanhetzel1@gmail.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
