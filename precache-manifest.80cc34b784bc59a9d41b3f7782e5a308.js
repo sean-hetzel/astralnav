@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6da055a63a1247e2791e7412870e864a",
+    "revision": "ab7af68e8f0c6cb57132ef645cf2032b",
     "url": "/astralnav/index.html"
   },
   {
-    "revision": "36cdf931b716d82be61f",
+    "revision": "e6f361f75bf1d4c36dda",
     "url": "/astralnav/static/css/main.2d7bfc57.chunk.css"
   },
   {
-    "revision": "07287508f4ed96f4e07c",
-    "url": "/astralnav/static/js/2.94449ab6.chunk.js"
+    "revision": "fbdb1e91012b57547c40",
+    "url": "/astralnav/static/js/2.c7c53be6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/astralnav/static/js/2.94449ab6.chunk.js.LICENSE.txt"
+    "url": "/astralnav/static/js/2.c7c53be6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36cdf931b716d82be61f",
-    "url": "/astralnav/static/js/main.1d253bf5.chunk.js"
+    "revision": "e6f361f75bf1d4c36dda",
+    "url": "/astralnav/static/js/main.d14f71e1.chunk.js"
   },
   {
     "revision": "f3c771b877a76fbdbc92",
