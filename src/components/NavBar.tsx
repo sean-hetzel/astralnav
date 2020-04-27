@@ -18,10 +18,10 @@ export default class NavBar extends Component<Props, State> {
         <Link className="btn nav-btn" id="login" to="/signup">
           <i className="tim-icons tim-icons-lg icon-single-02 teal" />
         </Link>
-        <Link className="btn nav-btn" to="#">
+        <Link className="btn nav-btn" to="/support">
           Support
         </Link>
-        <Link className="btn nav-btn" to="#">
+        <Link className="btn nav-btn" to="/about">
           About
         </Link>
       </nav>

@@ -33,7 +33,7 @@ export default class Home extends Component<Props, State> {
             <h1>Navigate Your Job Search</h1>
             <p>
               Track your job applications, networking events and interviews all
-              in one place.
+              in one place. Join for free. 
             </p>
             <Link className="btn-main btn" to="/signup">
               <span>Sign Up</span>
