@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
 
 interface Props {}
 interface State {}

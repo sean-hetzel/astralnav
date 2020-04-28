@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SignUpForm from '../components/SignUpForm'
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -16,7 +17,7 @@ export default class SignUp extends Component<Props, State> {
   render() {
     return (
       <div id="signup-page">
-      <input />
+        <SignUpForm/>
     </div>
     )
   }

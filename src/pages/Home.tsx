@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 interface Props {}
 interface State {}
@@ -33,7 +34,7 @@ export default class Home extends Component<Props, State> {
             <h1>Navigate Your Job Search</h1>
             <p>
               Track your job applications, networking events and interviews all
-              in one place. Join for free. 
+              in one place. Join for free!
             </p>
             <Link className="btn-main btn" to="/signup">
               <span>Sign Up</span>
@@ -67,6 +68,7 @@ export default class Home extends Component<Props, State> {
             <h3>Get a job.</h3>
           </div>
         </div>
+        <Footer/>
       </>
     );
   }

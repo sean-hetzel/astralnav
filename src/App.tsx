@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import SignUp from "./components/SignUp";
-import About from "./components/About";
-import Support from "./components/Support";
+import Home from "./pages/Home";
+import SignUp from "./pages/SignUp";
+import About from "./pages/About";
+import Support from "./pages/Support";
 
 interface Props {}
 interface State {}

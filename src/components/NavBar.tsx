@@ -11,17 +11,17 @@ export default class NavBar extends Component<Props, State> {
   render() {
     return (
       <nav>
-        <a href="/" id="brand-container" className="grid">
+        <Link to="/" id="brand-container" className="grid">
           <img src={logo} alt="Atral Nav" id="brand-img" />
           <h1 id="brand-text">ASTRAL NAV</h1>
-        </a>
-        <Link className="btn nav-btn" id="login" to="/signup">
+        </Link>
+        <Link to="/signup" className="btn nav-btn" id="login" >
           <i className="tim-icons tim-icons-lg icon-single-02 teal" />
         </Link>
-        <Link className="btn nav-btn" to="/support">
+        <Link to="/support" className="btn nav-btn" >
           Support
         </Link>
-        <Link className="btn nav-btn" to="/about">
+        <Link to="/about" className="btn nav-btn" >
           About
         </Link>
       </nav>

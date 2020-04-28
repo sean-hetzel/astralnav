@@ -131,6 +131,13 @@ nav {
   position: absolute;
 }
 
+#footer{
+  text-align: center;
+  color: var(--light);
+  font-size: 10pt;
+  padding-bottom: 4px;
+}
+
 /* --------------------------------
 
 Nucleo Outline Web Font - nucleoapp.com/
