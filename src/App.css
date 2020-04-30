@@ -921,6 +921,7 @@ html {
   font-weight: bold;
   border-radius: 6px;
   margin-top: 2em;
+  z-index: 1;
 }
 .btn-main:after {
   position: absolute;

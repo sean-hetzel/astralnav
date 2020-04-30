@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import Support from "./pages/Support";
+import Applications from "./pages/Applications";
 
 interface Props {}
 interface State {}
@@ -23,6 +24,7 @@ export default class App extends Component<Props, State> {
           <Route path="/about" exact render={(props) => <About {...props} />} />
           <Route path="/support" exact render={(props) => <Support {...props} />} />
           <Route path="/signup" component={SignUp} />
+          <Route path="/applications" exact render={(props) => <Applications {...props} />} />
         </Switch>
       </Router>
     );
