@@ -18,6 +18,7 @@ export default class Applications extends Component<Props, State> {
         <NavBar/>
         Applications
         <Button color="danger">Danger!</Button>
+        
       </>
     )
   }
