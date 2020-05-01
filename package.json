@@ -6,7 +6,7 @@
     "email": "seanhetzel1@gmail.com",
     "url": "https://seanhetzel.com"
   },
-  "license": "MIT",
+  "license": "GPL3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
