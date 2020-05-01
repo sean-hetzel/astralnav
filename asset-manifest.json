@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/astralnav/static/css/main.2d30d8c0.chunk.css",
-    "main.js": "/astralnav/static/js/main.8c01adbe.chunk.js",
-    "main.js.map": "/astralnav/static/js/main.8c01adbe.chunk.js.map",
-    "runtime-main.js": "/astralnav/static/js/runtime-main.096a266f.js",
-    "runtime-main.js.map": "/astralnav/static/js/runtime-main.096a266f.js.map",
-    "static/js/2.50eedb90.chunk.js": "/astralnav/static/js/2.50eedb90.chunk.js",
-    "static/js/2.50eedb90.chunk.js.map": "/astralnav/static/js/2.50eedb90.chunk.js.map",
-    "index.html": "/astralnav/index.html",
-    "precache-manifest.ab2bcd54edcc1ed1f6f21f5dbe016ed7.js": "/astralnav/precache-manifest.ab2bcd54edcc1ed1f6f21f5dbe016ed7.js",
-    "service-worker.js": "/astralnav/service-worker.js",
-    "static/css/main.2d30d8c0.chunk.css.map": "/astralnav/static/css/main.2d30d8c0.chunk.css.map",
-    "static/js/2.50eedb90.chunk.js.LICENSE.txt": "/astralnav/static/js/2.50eedb90.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/astralnav/static/media/nucleo.f0b489a5.woff",
-    "static/media/astral-nav-logo-300x300.png": "/astralnav/static/media/astral-nav-logo-300x300.8b6bf6e0.png"
+    "main.css": "/static/css/main.42b29977.chunk.css",
+    "main.js": "/static/js/main.a1fa74e4.chunk.js",
+    "main.js.map": "/static/js/main.a1fa74e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5066c173.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5066c173.js.map",
+    "static/js/2.13284cab.chunk.js": "/static/js/2.13284cab.chunk.js",
+    "static/js/2.13284cab.chunk.js.map": "/static/js/2.13284cab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3d2ea10da2ce633c3c75a7a877a0801c.js": "/precache-manifest.3d2ea10da2ce633c3c75a7a877a0801c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.42b29977.chunk.css.map": "/static/css/main.42b29977.chunk.css.map",
+    "static/js/2.13284cab.chunk.js.LICENSE.txt": "/static/js/2.13284cab.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/nucleo.f0b489a5.woff",
+    "static/media/astral-nav-logo-300x300.png": "/static/media/astral-nav-logo-300x300.8b6bf6e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.096a266f.js",
-    "static/js/2.50eedb90.chunk.js",
-    "static/css/main.2d30d8c0.chunk.css",
-    "static/js/main.8c01adbe.chunk.js"
+    "static/js/runtime-main.5066c173.js",
+    "static/js/2.13284cab.chunk.js",
+    "static/css/main.42b29977.chunk.css",
+    "static/js/main.a1fa74e4.chunk.js"
   ]
 }
