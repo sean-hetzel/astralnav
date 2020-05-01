@@ -2,9 +2,7 @@
 
 Job search tracker to track your job applications.
 
-Current URL: https://sean-hetzel.github.io/astralnav/#/
-
-Future URL: https://astralnav.com
+https://astralnav.com
 
 ![Astral Nav](astral-nav-screenshot.PNG)
 
