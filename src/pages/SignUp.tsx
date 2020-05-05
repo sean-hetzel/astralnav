@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import SignUpForm from '../components/SignUpForm'
+import React, { Component } from "react";
+import SignUpForm from "../components/SignUpForm";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -7,18 +7,18 @@ interface Props
     HTMLInputElement
   > {}
 
-interface State {
-  
-}
+interface State {}
 
 export default class SignUp extends Component<Props, State> {
-  state = {}
+  state = {};
 
   render() {
     return (
       <div id="signup-page">
-        <SignUpForm/>
-    </div>
-    )
+        <div id="form-container">
+          <SignUpForm />
+        </div>
+      </div>
+    );
   }
 }

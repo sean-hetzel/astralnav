@@ -30,9 +30,9 @@ export default class Home extends Component<Props, State> {
             <div className="planet small"></div>
             <div className="belt"></div>
           </div>
-          <div id="sign-up-container">
+          <div id="info-container">
             <h1>Navigate Your Job Search</h1>
-            <p>
+            <p id="info-container-description">
               Track your job applications, networking events and interviews all
               in one place. Join for free!
             </p>
