@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SignUpForm from "../components/SignUpForm";
+import TropicalImg from "../images/astral-nav-dawn.svg";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -14,11 +15,14 @@ export default class SignUp extends Component<Props, State> {
 
   render() {
     return (
-      <div id="signup-page">
+      // <div id="signup-page">
+      <>
         <div id="form-container">
           <SignUpForm />
         </div>
-      </div>
+        <img src={TropicalImg} alt="tropical dawn" />
+        {/* </div> */}
+      </>
     );
   }
 }
