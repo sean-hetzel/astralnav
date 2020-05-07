@@ -147,7 +147,7 @@ nav {
   height: 100vh;
   display: inline-block;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 #lift-off-img {
@@ -158,6 +158,38 @@ nav {
   position: fixed;
   z-index: 1;
   right: 0;
+}
+
+.palm {
+  position: relative;
+  z-index: 2;
+}
+
+#palm-bottom-left {
+  overflow: hidden;
+  position: fixed;
+  width: 500px;
+  height: auto;
+  bottom: -100px;
+  margin-left: -50px;
+}
+
+#palm-bottom-right {
+  overflow: hidden;
+  position: fixed;
+  width: 800px;
+  height: auto;
+  bottom: -50px;
+  right: -350px;
+}
+
+#palm-top-right {
+  overflow: hidden;
+  position: fixed;
+  width: 500px;
+  height: auto;
+  top: -100px;
+  right: -60px;
 }
 
 /* --------------------------------
