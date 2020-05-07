@@ -35,6 +35,7 @@ export default class SignUp extends Component<Props, State> {
               fullName: "",
               email: "",
               password: "",
+              terms: false
             }}
             onSubmit={(data, { setSubmitting }) => {
               setSubmitting(true);
@@ -42,13 +43,13 @@ export default class SignUp extends Component<Props, State> {
               setSubmitting(false);
             }}
           >
-            <div id="form-card">
+            <div id="form-card" >
               <Form>
                 <Field placeholder="Full Name" name="fullName" type="input" />
                 <Field placeholder="Email" name="email" type="email" />
                 <Field placeholder="Password" name="password" type="password" />
                 <Link className="btn-main btn" type="submit" to="/applications">
-                  <span>Submit</span>
+                  <span>Launch</span>
                 </Link>
               </Form>
             </div>
