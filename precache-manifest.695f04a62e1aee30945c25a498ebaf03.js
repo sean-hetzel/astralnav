@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c988746ed2a5924605e21933da4218a",
+    "revision": "083a9f457350b4fa89679c19a8c860ed",
     "url": "/index.html"
   },
   {
-    "revision": "ad166c65b06840f1c95d",
-    "url": "/static/css/main.42b29977.chunk.css"
+    "revision": "4bf4f92c2c4d4eec649c",
+    "url": "/static/css/main.3d2e39a9.chunk.css"
   },
   {
-    "revision": "8b1e1e849023dc5cc7a5",
-    "url": "/static/js/2.13284cab.chunk.js"
+    "revision": "5f64b8126546c2d8c594",
+    "url": "/static/js/2.79504759.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.13284cab.chunk.js.LICENSE.txt"
+    "revision": "77e7f328dacc981fca681ee4ae94d669",
+    "url": "/static/js/2.79504759.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad166c65b06840f1c95d",
-    "url": "/static/js/main.a1fa74e4.chunk.js"
+    "revision": "4bf4f92c2c4d4eec649c",
+    "url": "/static/js/main.813c39a6.chunk.js"
   },
   {
     "revision": "18c09646c0ceb3c75413",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ailerons-Regular.317c83ea.otf"
   },
   {
-    "revision": "2d644394559e2060dcd321bee90bdce4",
-    "url": "/static/media/astral-nav-dawn.2d644394.svg"
+    "revision": "d9ddd0ed25f0ebcabac089c03a333d59",
+    "url": "/static/media/astral-nav-dawn-2.d9ddd0ed.svg"
   },
   {
     "revision": "8b6bf6e08dc18887edfd7e1f7feb5cd8",
@@ -50,5 +50,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
     "url": "/static/media/nucleo.f0b489a5.woff"
+  },
+  {
+    "revision": "2fd89c73b0068aca6f9736be15b0bee2",
+    "url": "/static/media/palm-bottom-left.2fd89c73.svg"
+  },
+  {
+    "revision": "9a7f378dcc6e9d6e8e3208c4d35efb34",
+    "url": "/static/media/palm-bottom-right.9a7f378d.svg"
+  },
+  {
+    "revision": "0bec691988ce476124afb6f2545def21",
+    "url": "/static/media/palm-top-right.0bec6919.svg"
   }
 ]);
