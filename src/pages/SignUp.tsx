@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import SignUpForm from "../components/SignUpForm";
-import LiftOffImg from "../images/astral-nav-dawn-2.svg";
-import PalmBottomLeft from "../images/palm-bottom-left.svg";
-import PalmBottomRight from "../images/palm-bottom-right.svg";
-import PalmTopRight from "../images/palm-top-right.svg";
+import { Formik, Field, Form } from "formik";
+import { Link } from "react-router-dom";
+import LiftOffBackgroundImg from "../components/LiftOffBackgroundImg";
+import logo from "../images/astral-nav-logo-300x300.png";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -19,32 +18,43 @@ export default class SignUp extends Component<Props, State> {
   render() {
     return (
       <>
-        <div id="form-container">
-          <SignUpForm />
+        <div id="form-side-bar">
+          <Link to="/" className="brand-login" >
+            <img
+              src={logo}
+              alt="Atral Nav"
+              className="brand-img"
+              id="brand-img-login"
+            />
+            <h1 className="brand-text" id="brand-text-login">
+              ASTRAL NAV
+            </h1>
+          </Link>
+          <Formik
+            initialValues={{
+              fullName: "",
+              email: "",
+              password: "",
+            }}
+            onSubmit={(data, { setSubmitting }) => {
+              setSubmitting(true);
+              console.log("submit", data);
+              setSubmitting(false);
+            }}
+          >
+            <div id="form-card">
+              <Form>
+                <Field placeholder="Full Name" name="fullName" type="input" />
+                <Field placeholder="Email" name="email" type="email" />
+                <Field placeholder="Password" name="password" type="password" />
+                <Link className="btn-main btn" type="submit" to="/applications">
+                  <span>Submit</span>
+                </Link>
+              </Form>
+            </div>
+          </Formik>
         </div>
-        <img
-          id="lift-off-img"
-          src={LiftOffImg}
-          alt="rocket lifting off at dawn"
-        />
-        <img
-          className="palm"
-          id="palm-bottom-left"
-          src={PalmBottomLeft}
-          alt="palm bottom left"
-        />
-        <img
-          className="palm"
-          id="palm-bottom-right"
-          src={PalmBottomRight}
-          alt="palm bottom right"
-        />
-        <img
-          className="palm"
-          id="palm-top-right"
-          src={PalmTopRight}
-          alt="palm top right"
-        />
+        <LiftOffBackgroundImg />
       </>
     );
   }

@@ -4,10 +4,11 @@
 }
 
 :root {
+  --light: #b7c5ce;
   --dark: #1b1e20;
+  --thin: #2e383a;
   --darker: #141618;
   --main: white;
-  --light: #b7c5ce;
   --yellow: #e8ff16;
   --kelly: #4cbb17;
   --teal: #00ffdd;
@@ -92,7 +93,7 @@ nav {
   float: left;
 }
 
-#brand-img {
+.brand-img {
   margin-right: 2em;
   margin-left: 2em;
   width: 100px;
@@ -100,13 +101,10 @@ nav {
   float: left;
 }
 
-#brand-text {
+.brand-text {
   background-clip: border-box;
   font-family: Ailerons;
   color: var(--teal);
-  /* background: linear-gradient(var(--teal) 50%, var(--yellow) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   text-decoration: none;
   float: left;
   font-size: 50pt;
@@ -141,13 +139,19 @@ nav {
   padding-bottom: 4px;
 }
 
-#form-container {
+#form-side-bar {
   background-color: var(--dark);
   width: 33vw;
   height: 100vh;
   display: inline-block;
   position: relative;
   z-index: 3;
+  text-align: center;
+}
+
+#form-card {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 #lift-off-img {
@@ -177,10 +181,11 @@ nav {
 #palm-bottom-right {
   overflow: hidden;
   position: fixed;
-  width: 800px;
+  width: 700px;
   height: auto;
-  bottom: -50px;
-  right: -350px;
+  bottom: -70px;
+  right: -200px;
+  transform: rotate(5deg);
 }
 
 #palm-top-right {
@@ -190,6 +195,50 @@ nav {
   height: auto;
   top: -100px;
   right: -60px;
+}
+
+.brand-login {
+  text-align: center;
+  display: block;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  float: none;
+  text-decoration: none;
+}
+
+#brand-img-login {
+  width: 60px;
+  float: none;
+
+}
+
+#brand-text-login {
+  font-size: 30pt;
+  float: none;
+
+}
+
+input {
+  display: block;
+  color: var(--teal);
+  background-color: transparent;
+  border: 1px solid var(--thin);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  position: relative;
+  outline: none;
+  border-radius: 6px;
+  font-size: 12pt;
+}
+
+input:focus {
+  border-color: var(--teal);
+  transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out,
+    background-color 0.6s ease-in-out;
+  transition-property: color, border-color, background-color;
+  transition-duration: 0.6s, 0.6s, 0.6s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s;
 }
 
 /* --------------------------------
