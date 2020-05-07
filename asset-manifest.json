@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d2e39a9.chunk.css",
+    "main.css": "/static/css/main.8321a0c6.chunk.css",
     "main.js": "/static/js/main.813c39a6.chunk.js",
     "main.js.map": "/static/js/main.813c39a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5066c173.js",
@@ -8,9 +8,9 @@
     "static/js/2.79504759.chunk.js": "/static/js/2.79504759.chunk.js",
     "static/js/2.79504759.chunk.js.map": "/static/js/2.79504759.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.695f04a62e1aee30945c25a498ebaf03.js": "/precache-manifest.695f04a62e1aee30945c25a498ebaf03.js",
+    "precache-manifest.8b3792e0666d911fc121524f97fef4e5.js": "/precache-manifest.8b3792e0666d911fc121524f97fef4e5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3d2e39a9.chunk.css.map": "/static/css/main.3d2e39a9.chunk.css.map",
+    "static/css/main.8321a0c6.chunk.css.map": "/static/css/main.8321a0c6.chunk.css.map",
     "static/js/2.79504759.chunk.js.LICENSE.txt": "/static/js/2.79504759.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/nucleo.f0b489a5.woff",
     "static/media/astral-nav-dawn-2.svg": "/static/media/astral-nav-dawn-2.d9ddd0ed.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.5066c173.js",
     "static/js/2.79504759.chunk.js",
-    "static/css/main.3d2e39a9.chunk.css",
+    "static/css/main.8321a0c6.chunk.css",
     "static/js/main.813c39a6.chunk.js"
   ]
 }
