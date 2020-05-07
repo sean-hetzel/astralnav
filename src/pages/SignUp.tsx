@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SignUpForm from "../components/SignUpForm";
-import TropicalImg from "../images/astral-nav-dawn.svg";
+import LiftOffImg from "../images/astral-nav-dawn-2.svg";
 
 interface Props
   extends React.DetailedHTMLProps<
@@ -15,13 +15,11 @@ export default class SignUp extends Component<Props, State> {
 
   render() {
     return (
-      // <div id="signup-page">
       <>
         <div id="form-container">
           <SignUpForm />
         </div>
-        <img src={TropicalImg} alt="tropical dawn" />
-        {/* </div> */}
+        <img id="lift-off-img" src={LiftOffImg} alt="rocket lifting off at dawn"/>
       </>
     );
   }

@@ -26,7 +26,7 @@ h1 {
   color: var(--teal);
 }
 
-h3{
+h3 {
   color: var(--light);
 }
 
@@ -120,7 +120,7 @@ nav {
   display: inline-block;
 }
 
-#info-container-description{
+#info-container-description {
   margin-bottom: 2em;
 }
 
@@ -134,17 +134,30 @@ nav {
   position: absolute;
 } */
 
-#form-container{
-  background-color: var(--dark);
-  width: 50vw;
-  height: 100vh;
-}
-
-#footer{
+#footer {
   text-align: center;
   color: var(--light);
   font-size: 10pt;
   padding-bottom: 4px;
+}
+
+#form-container {
+  background-color: var(--dark);
+  width: 33vw;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+#lift-off-img {
+  overflow: hidden;
+  height: 100vh;
+  width: auto;
+  float: right;
+  position: fixed;
+  z-index: 1;
+  right: 0;
 }
 
 /* --------------------------------
@@ -974,10 +987,10 @@ html {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.icon-info-container{
+.icon-info-container {
   margin: 10em;
 }
