@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import LiftOffImg from "../images/astral-nav-dawn-2.svg";
+import LiftOffImg from "../images/astral-nav-dawn-3.svg";
 import PalmBottomLeft from "../images/palm-bottom-left.svg";
 import PalmBottomRight from "../images/palm-bottom-right.svg";
 import PalmTopRight from "../images/palm-top-right.svg";
