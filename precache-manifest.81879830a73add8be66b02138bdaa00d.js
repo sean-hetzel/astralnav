@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b3e325ddc00e8f1bbbd0c0054f08ad9",
+    "revision": "1cc1cbed1d9b4f28eead29a85a6578fe",
     "url": "/index.html"
   },
   {
-    "revision": "ef9a7745f7c2d6a2cbde",
+    "revision": "e7dd8a602ec7360aa91f",
     "url": "/static/css/main.8321a0c6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.79504759.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef9a7745f7c2d6a2cbde",
-    "url": "/static/js/main.813c39a6.chunk.js"
+    "revision": "e7dd8a602ec7360aa91f",
+    "url": "/static/js/main.700a444e.chunk.js"
   },
   {
     "revision": "18c09646c0ceb3c75413",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ailerons-Regular.317c83ea.otf"
   },
   {
-    "revision": "d9ddd0ed25f0ebcabac089c03a333d59",
-    "url": "/static/media/astral-nav-dawn-2.d9ddd0ed.svg"
+    "revision": "e837b1aa2a489594e079487ee3c06ee6",
+    "url": "/static/media/astral-nav-dawn-3.e837b1aa.svg"
   },
   {
     "revision": "8b6bf6e08dc18887edfd7e1f7feb5cd8",
