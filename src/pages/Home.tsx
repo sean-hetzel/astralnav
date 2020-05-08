@@ -33,7 +33,7 @@ export default class Home extends Component<Props, State> {
           <div id="info-container">
             <h1>Navigate Your Job Search</h1>
             <p id="info-container-description">
-              Track your job applications, networking events and interviews all
+              Track your applications, networking events and interviews all
               in one place. Join for free!
             </p>
             <Link className="btn-main btn" to="/signup">

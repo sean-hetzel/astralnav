@@ -15,7 +15,7 @@ export default class Applications extends Component<Props, State> {
     return (
       <>
         <NavBar/>
-        Applications
+        Applications | Interviews
       </>
     )
   }
