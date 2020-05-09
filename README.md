@@ -4,7 +4,7 @@ Job search tracker to track your job applications.
 
 https://astralnav.com
 
-![Astral Nav](astral-nav-screenshot.PNG)
+![Astral Nav](astral-nav-screenshot-1.PNG)
 
 # Usage
 
