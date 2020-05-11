@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from '../components/NavBar'
+import Table from '../components/Table'
 
 interface Props {
   
@@ -16,6 +17,7 @@ export default class Applications extends Component<Props, State> {
       <>
         <NavBar/>
         Applications | Interviews
+        <Table/>
       </>
     )
   }
