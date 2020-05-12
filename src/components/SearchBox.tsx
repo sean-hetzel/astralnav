@@ -10,7 +10,7 @@ export default class SearchBox extends Component<Props, State> {
     return (
       <div id="search-box">
         <i className="tim-icons tim-icons-lg icon-zoom-split teal" />
-        <input type="text" />
+        <input placeholder="Company, Position ect." type="text" />
       </div>
     );
   }
