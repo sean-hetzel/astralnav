@@ -13,7 +13,7 @@ interface State {}
 export default class App extends Component<Props, State> {
   constructor(props: any) {
     super(props);
-    this.state = {};
+    this.state = {loggedIn: false};
   }
 
   render() {

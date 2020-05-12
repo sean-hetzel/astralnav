@@ -15,6 +15,7 @@ export default class Table extends Component<Props, State> {
             <th>Company</th>
             <th>Position</th>
             <th>Location</th>
+            <th>Method</th>
             <th>Date</th>
             <th>Status</th>
           </tr>

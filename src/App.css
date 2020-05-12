@@ -1076,3 +1076,11 @@ html {
 .icon-info-container {
   margin: 10em;
 }
+
+#application-form > input{
+  display: inline;
+  margin-right: 2em;
+  margin-left: 1em;
+}
+
+
