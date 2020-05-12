@@ -19,6 +19,7 @@ export default class Table extends Component<Props, State> {
             <th>Method</th>
             <th>Cover Letter</th>
             <th>Date</th>
+            <th>Notes</th>
             <th>Status</th>
           </tr>
           <TableCell/>

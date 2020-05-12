@@ -17,6 +17,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -27,6 +28,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -37,6 +39,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -47,6 +50,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -57,6 +61,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -67,6 +72,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -77,6 +83,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -87,6 +94,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -97,6 +105,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -107,6 +116,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -117,6 +127,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -127,6 +138,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -137,6 +149,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -147,6 +160,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -157,6 +171,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -167,6 +182,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -177,6 +193,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -187,6 +204,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -197,6 +215,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -207,6 +226,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -217,6 +237,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -227,6 +248,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -237,6 +259,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -247,6 +270,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -257,6 +281,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -267,6 +292,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -277,6 +303,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -287,6 +314,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -297,6 +325,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -307,6 +336,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -317,6 +347,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -327,6 +358,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -337,6 +369,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -347,6 +380,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -357,6 +391,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -367,6 +402,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -377,6 +413,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -387,6 +424,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -397,6 +435,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -407,6 +446,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -417,6 +457,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -427,6 +468,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -437,6 +479,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -447,6 +490,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -457,6 +501,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -467,6 +512,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -477,6 +523,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -487,6 +534,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -497,6 +545,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -507,6 +556,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -517,6 +567,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -527,6 +578,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -537,6 +589,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -547,6 +600,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -557,6 +611,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -567,6 +622,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -577,6 +633,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -587,6 +644,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -597,6 +655,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -607,6 +666,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -617,6 +677,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -627,6 +688,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -637,6 +699,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -647,6 +710,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
         <tr>
@@ -657,6 +721,7 @@ export default class TableCell extends Component<Props, State> {
           <td>Company Website</td>
           <td>Your cover letter</td>
           <td>5/11/2020</td>
+          <td>Write Notes</td>
           <td>Interviewing</td>
         </tr>
       </>
