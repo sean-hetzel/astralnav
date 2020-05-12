@@ -12,8 +12,8 @@ export default function ApplicationInput({}: Props): ReactElement {
         position: "",
         location: "",
         method: "",
-        date: "",
         coverLetter: "",
+        date: ""
       }}
       onSubmit={(data, { setSubmitting }) => {
         setSubmitting(true);
@@ -22,20 +22,62 @@ export default function ApplicationInput({}: Props): ReactElement {
       }}
     >
       <Form id="application-form">
-        <i className="tim-icons tim-icons-lg icon-planet teal" />
-        <Field placeholder="Company" name="company" type="input" />
-        <i className="tim-icons tim-icons-lg icon-badge teal" />
-        <Field placeholder="Position" name="postion" type="input" />
-        <i className="tim-icons tim-icons-lg icon-square-pin teal" />
-        <Field placeholder="Location" name="location" type="input" />
-        <i className="tim-icons tim-icons-lg icon-send teal" />
-        <Field placeholder="Method" name="method" type="input" />
-        <i className="tim-icons tim-icons-lg icon-watch-time teal" />
-        <Field placeholder="Date" name="date" type="date" />
-        <i className="tim-icons tim-icons-lg icon-pencil teal" />
-        <Field placeholder="Cover Letter" name="coverLetter" type="input" />
-        <Link className="btn-main btn" type="submit" to="#">
-          <span>Submit</span>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-planet teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Company"
+            name="company"
+            type="input"
+          />
+        </div>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-badge teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Position"
+            name="postion"
+            type="input"
+          />
+        </div>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-square-pin teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Location"
+            name="location"
+            type="input"
+          />
+        </div>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-send teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Method"
+            name="method"
+            type="input"
+          />
+        </div>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-pencil teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Cover Letter"
+            name="coverLetter"
+            type="input"
+          />
+        </div>
+        <div className="icon-input">
+          <i className="tim-icons tim-icons-lg icon-watch-time teal" />
+          <Field
+            className="app-form-input"
+            placeholder="Date"
+            name="date"
+            type="date"
+          />
+        </div>
+        <Link className="btn-main btn" id="add-app-btn" type="submit" to="#">
+          <span>Add</span>
         </Link>
       </Form>
     </Formik>

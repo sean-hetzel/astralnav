@@ -209,13 +209,11 @@ nav {
 #brand-img-login {
   width: 60px;
   float: none;
-
 }
 
 #brand-text-login {
   font-size: 30pt;
   float: none;
-
 }
 
 input {
@@ -1077,10 +1075,75 @@ html {
   margin: 10em;
 }
 
-#application-form > input{
+#application-form {
+  margin: 3em;
+  margin-top: 0em;
+  border-top: 1px solid var(--thin);
+  /* border-bottom: 1px solid var(--thin); */
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.icon-input {
+  display: inline-block;
+}
+
+.app-form-input {
   display: inline;
   margin-right: 2em;
   margin-left: 1em;
 }
 
+#add-app-btn {
+  margin-left: 48px;
+  margin-top: 2em;
+}
 
+#search-box {
+  margin: 3em;
+  margin-top: 2em;
+  margin-bottom: -2em;
+  display: block;
+  border-top: 1px solid var(--thin);
+  padding-top: 2em;
+}
+
+#search-box > input {
+  display: inline;
+  margin-right: 2em;
+  margin-left: 1em;
+}
+
+#applications-table {
+  margin: 3em;
+  display: table;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid var(--thin);
+  color: var(--light);
+}
+
+table {
+  border-collapse: collapse;
+  width: -webkit-fill-available;
+}
+
+th {
+  height: 40px;
+  color: var(--teal);
+  text-align: center;
+  font-size: 14pt;
+  position: sticky;
+  top: -1px;
+  background: var(--dark);
+  margin: 0em;
+}
+
+.page-header {
+  margin-left: 1.5em;
+  text-align: center;
+}

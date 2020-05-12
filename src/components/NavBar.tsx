@@ -21,9 +21,6 @@ export default class NavBar extends Component<Props, State> {
         <Link to="/about" className="btn nav-btn">
           About
         </Link>
-        <Link to="/interviews" className="btn nav-btn">
-          Interviews
-        </Link>
         <Link to="/applications" className="btn nav-btn">
           Applications
         </Link>
