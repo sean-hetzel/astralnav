@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TableCell from "./TableCell";
+import TableRow from "./TableRow";
 
 interface Props {}
 interface State {}
@@ -22,7 +22,7 @@ export default class Table extends Component<Props, State> {
             <th>Notes</th>
             <th>Status</th>
           </tr>
-          <TableCell/>
+          <TableRow/>
         </tbody>
       </table>
     );
